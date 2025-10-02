@@ -82,7 +82,7 @@ export default function Card({nama, github}) {
                                 </span>
                             </button>
                             
-                            <a 
+                            {/* <a 
                                 href={github}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -91,7 +91,7 @@ export default function Card({nama, github}) {
                                 <span className="flex items-center justify-center gap-1">
                                     ⚔️ GITHUB
                                 </span>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>

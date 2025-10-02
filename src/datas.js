@@ -73,15 +73,15 @@ export const datas = [
       jenis: "networking",
       img:"",
       fitur: [
-        {fitur: "Registrasi Pengguna"}, {fitur: 'Daftar Tiket'}, {fitur: 'Pemesanan Tiket'}
+        // {fitur: "Registrasi Pengguna"}, {fitur: 'Daftar Tiket'}, {fitur: 'Pemesanan Tiket'}
       ],
       teknologi: [
-        {teknologi: 'Next.js'},
-        {teknologi: 'Express.js'},
-        {teknologi: 'Nginx'},
-        {teknologi: 'mongoDb'},
-        {teknologi: 'JavaScript'},
-        {teknologi: 'vritual box'},
+        // {teknologi: 'Next.js'},
+        // {teknologi: 'Express.js'},
+        // {teknologi: 'Nginx'},
+        // {teknologi: 'mongoDb'},
+        // {teknologi: 'JavaScript'},
+        // {teknologi: 'vritual box'},
       ],
       spesifikasi_sistem: "",
       caraKerja: ""
@@ -93,20 +93,20 @@ export const datas = [
       jenis: "networking",
       img:"",
       fitur: [
-        {fitur: "User Authorization Mobile Apps"}, {fitur: 'Fitur Message pada SmartLock'}, {fitur: 'Face Recognition'}, {fitur: 'Capture wajah anomali'}, {fitur: 'Cloud Storage'}, {fitur: 'Multi-user'}
+        // {fitur: "User Authorization Mobile Apps"}, {fitur: 'Fitur Message pada SmartLock'}, {fitur: 'Face Recognition'}, {fitur: 'Capture wajah anomali'}, {fitur: 'Cloud Storage'}, {fitur: 'Multi-user'}
       ],
       teknologi: [
-        {teknologi: 'Kotlin'},
-        {teknologi: 'Firebase'},
-        {teknologi: 'Python'},
-        {teknologi: 'TensorFlow'},
-        {teknologi: 'ESP32-CAM'},
-        {teknologi: 'Sensor Infrared'},
-        {teknologi: 'LCD OLED'},
-        {teknologi: 'Electrical Lock'},
+        // {teknologi: 'Kotlin'},
+        // {teknologi: 'Firebase'},
+        // {teknologi: 'Python'},
+        // {teknologi: 'TensorFlow'},
+        // {teknologi: 'ESP32-CAM'},
+        // {teknologi: 'Sensor Infrared'},
+        // {teknologi: 'LCD OLED'},
+        // {teknologi: 'Electrical Lock'},
       ],
-      spesifikasi_sistem: "Front-end menggunakan kotlin dan firebase digunakan sebagai backend-as-a-service. Untuk melatih model deep learning menggunakan bahasa pemrograman python dan menggunakan library TensorFlow",
-      caraKerja: "Terdapat sensor infrared pada perangkat SmartLock"
+  //    spesifikasi_sistem: "Front-end menggunakan kotlin dan firebase digunakan sebagai backend-as-a-service. Untuk melatih model deep learning menggunakan bahasa pemrograman python dan menggunakan library TensorFlow",
+//      caraKerja: "Terdapat sensor infrared pada perangkat SmartLock"
     },
     {
       id: 6,
@@ -115,18 +115,18 @@ export const datas = [
       jenis: "networking",
       img:"",
       fitur: [
-        {fitur: "Registrasi Pengguna"}, {fitur: 'Daftar Tiket'}, {fitur: 'Pemesanan Tiket'}
+        // {fitur: "Registrasi Pengguna"}, {fitur: 'Daftar Tiket'}, {fitur: 'Pemesanan Tiket'}
       ],
       teknologi: [
-        {teknologi: 'Next.js'},
-        {teknologi: 'Express.js'},
-        {teknologi: 'Nginx'},
-        {teknologi: 'mongoDb'},
-        {teknologi: 'JavaScript'},
-        {teknologi: 'vritual box'},
+        // {teknologi: 'Next.js'},
+        // {teknologi: 'Express.js'},
+        // {teknologi: 'Nginx'},
+        // {teknologi: 'mongoDb'},
+        // {teknologi: 'JavaScript'},
+        // {teknologi: 'vritual box'},
       ],
-      spesifikasi_sistem: "Front-End menggunakan Next JS yang berfungsi sebagai antar muka pengguna. Dua instance Express.js berjalan di dua virtual device, masing masing menyajkan data dari mongoDb dan merespon REST API. MongoDb berjalan di device terpish untuk mensimulasikan sistem terdistribusi. Nginx bertugas sebagai reverse proxy dan load balancer, juga mengatur lalu listas request ke dua backend berdasarkan algoritma round-robin",
-      caraKerja: "Pengguna mengakses website melalui IP front-end/Nginx, Nginx menerima request HTTP dan meneruskannya. Jika request berasal dari front-end maka akan diteruskan ke Next.js server di port 3002. Apabila menuju back-end, maka Nginx akan meneruskannya ke salah satu server Express yang berjalan di dua device berbeda. Misalnya, 192.168.100.11:3000 dan 192.168.100.12:3000 menggunakan mekanisme load balancing. Sistem mendistribusikan beban trafik ke server backend agar tidak overliad"
+    //  spesifikasi_sistem: "Front-End menggunakan Next JS yang berfungsi sebagai antar muka pengguna. Dua instance Express.js berjalan di dua virtual device, masing masing menyajkan data dari mongoDb dan merespon REST API. MongoDb berjalan di device terpish untuk mensimulasikan sistem terdistribusi. Nginx bertugas sebagai reverse proxy dan load balancer, juga mengatur lalu listas request ke dua backend berdasarkan algoritma round-robin",
+      // caraKerja: "Pengguna mengakses website melalui IP front-end/Nginx, Nginx menerima request HTTP dan meneruskannya. Jika request berasal dari front-end maka akan diteruskan ke Next.js server di port 3002. Apabila menuju back-end, maka Nginx akan meneruskannya ke salah satu server Express yang berjalan di dua device berbeda. Misalnya, 192.168.100.11:3000 dan 192.168.100.12:3000 menggunakan mekanisme load balancing. Sistem mendistribusikan beban trafik ke server backend agar tidak overliad"
     },
   ]
 
